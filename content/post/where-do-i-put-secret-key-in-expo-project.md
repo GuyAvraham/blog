@@ -31,7 +31,7 @@ When all is installed cd in the project, run the project with `exp start` and op
 ### 2. Add a secret key
 Update - 
 run "yarn add expo-constants"
-import { Constants } from "expo-constants";
+import Constants from "expo-constants";
 
 Open `app.json` who is inside the root folder and add the `extra` key in the expo object. Should look like this.
 
